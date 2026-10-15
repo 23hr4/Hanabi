@@ -1,0 +1,19 @@
+- Sistemde tek kullanıcı türü *member* olur; kullanıcılar etkinliğe göre katılımcı, host veya co-host olabilir.
+- Kullanıcı, hostluğu aktif ettiğinde sahip olduğu ve getirebileceği kutu oyunlarını profiline ekler.
+- Host, oyun gecesini oluşturur; tarih, saat, mekân ve toplam katılımcı kapasitesini belirler.
+- Host, isterse yaş aralığı, cinsiyet ve deneyim seviyesi gibi katılım koşulları belirler.
+- Host, co-host ekleyebilir; mekân sağlama, oyun getirme ve oturum yönetme sorumluluklarını paylaşabilir.
+- Host veya co-host, getirebilecekleri oyunlardan seçim yaparak oturumları oluşturur; her oturumun saatini, oyuncu kapasitesini ve oyunu getirecek kişiyi belirler.
+- Bir gecede tek veya birden fazla oturum olabilir; oturumlar aynı anda ya da art arda düzenlenebilir ve gece sırasında yeni oturum açılabilir.
+- Kullanıcı, oyun gecesine katılır ve istediği oturumlarda yer ayırtır; bütün oturumlara katılması gerekmez.
+- Katılımcılar oyun getirmez; oyun sağlayacak bir katılımcı önce co-host yapılır.
+- Host ve co-hostlar da oturumlara oyuncu olarak katılabilir.
+- Oturum başlarken host veya co-host, gerçekten oynayan kişileri doğrular.
+- Host, oyun sırasında oyuncuların *oyun içi skorlarını ekleyip güncelleyebilir*; böylece skor takibi uygulama üzerinden yapılır.
+- Oyun sonunda host, son skorları ve kazananları onaylar; *genel leaderboard puanları yalnızca sonuç kesinleştirildiğinde eklenir.*
+- Kullanıcılar, geçmiş oyunlarını, sonuçlarını, genel puanlarını ve oyun bazındaki sıralamalarını görebilir.
+- Sistem, düzenli katılıma göre kullanıcıların streaklerini günceller.
+- Katılımcılar, gece sonrasında hostu puanlayabilir ve sorun yaşadıkları oyuncuları raporlayabilir.
+- Katalog sayfası üzerinden site databaseinde varolan her oyun görülebilir. (biri oyun satın almak istio merak edip katalog incelemk isterse diye)
+-kişisel bio sayfasında slide ile ikiye ayrılır host ve player olara(eğer host deilse sadece player sayfası) player sayfasında: profil resmi, bio, toplam skoru (oyunlara katılarak ve kazanarak toplanrı) yazar, host kısmında: sahip olduğu oyunlar, host ettiği event nightlar ve host rating (event sonrası playerlar tarafından verilir) gözükür.
+- oyunların oynanma saatine göre puan ağırlıkları olur ve monopoly gibi uzun süren bi oyunu kazanan 100 puan mesela alırken, uno kazanan 10 puan alır.
